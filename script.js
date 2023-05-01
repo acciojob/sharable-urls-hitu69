@@ -18,9 +18,9 @@ name = document.getElementById("name").value;
 	if(name!=""){
 		queryString += "?name="+name;
 		if(year!=""){
-			queryString +=  "&?year="+year;
+			queryString +=  "&year="+year;
 		}
-	}else if(year != null){
+	}else if(year !=""){
 			queryString +=  "?year="+year;
 	}
  
